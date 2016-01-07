@@ -41,3 +41,4 @@ gulp.task('del', function () {
 
 gulp.task('build', ['del-temp-files']);
 
+gulp.task('default', ['build']);

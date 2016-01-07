@@ -31,12 +31,12 @@
   padding: 5px;
 }
 
-.ionic_datepicker .date_selected {
-  background-color: rgba(56, 126, 245, 1);
-}
-
 .ionic_datepicker .today {
   background-color: rgba(186, 186, 186, 1);
+}
+
+.ionic_datepicker .date_selected {
+  background-color: rgba(56, 126, 245, 1);
 }
 
 .ionic_datepicker .pointer_events_none {
