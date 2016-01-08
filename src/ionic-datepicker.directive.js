@@ -7,9 +7,9 @@
     angular.module('ionic-datepicker')
         .directive('ionicDatepicker', IonicDatepicker);
 
-    IonicDatepicker.$inject = ['$ionicPopup', '$ionicModal', 'IonicDatepickerService'];
+    IonicDatepicker.$inject = ['$ionicPopup', '$ionicModal', 'IonicDatepickerService', 'IonicClosePopupService'];
 
-    function IonicDatepicker($ionicPopup, $ionicModal, IonicDatepickerService) {
+    function IonicDatepicker($ionicPopup, $ionicModal, IonicDatepickerService, IonicClosePopupService) {
         return {
             restrict: 'AE',
             replace: true,
