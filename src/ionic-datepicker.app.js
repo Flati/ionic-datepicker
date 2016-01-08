@@ -4,6 +4,6 @@
 (function(){
   'use strict';
 
-  angular.module('ionic-datepicker', ['ionic','ionic-datepicker.templates', 'ionic.closePopup']);
+  angular.module('ionic-datepicker', ['ionic','ionic-datepicker.templates']);
   
 })();
