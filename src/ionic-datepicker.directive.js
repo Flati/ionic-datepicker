@@ -439,6 +439,7 @@
                             scope: scope,
                             buttons: buttons
                         });
+                        IonicClosePopupService.register(scope.popup);
                     }
                 });
             }
